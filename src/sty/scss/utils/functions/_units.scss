@@ -1,16 +1,10 @@
-@charset 'utf-8';
-
 @use 'sass:math';
 
 
-@function gu($v) {
-	$_u: 8px;
-
-	@return ($v * $_u);
+@function gu($value, $unit: 8px) {
+	@return ($value * $unit);
 }
 
-@function dp($v) {
-	$_u: 1px;
-
-	@reutrn ($v * $_u);
+@function dp($value) {
+	@return gu($value, 1px);
 }
