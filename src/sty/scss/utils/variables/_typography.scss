@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+@use '../functions/units';
+
+
+$font-family-default: ('Ubuntu', system-ui, sans-serif);
+
+$font-size--xs: units.gu(1.25);
+$font-size--sm: units.gu(1.5);
+$font-size--md: units.gu(1.75);
+$font-size--lg: units.gu(2.5);
+$font-size--xl: units.gu(3.5);
